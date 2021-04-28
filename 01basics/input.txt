@@ -1,0 +1,4 @@
+C:\Users\ADMIN\Desktop\PYTHON-TUROTIALS\code>C:/Users/ADMIN/AppData/Local/Programs/Python/Python39/python.exe c:/Users/ADMIN/Desktop/PYTHON-TUROTIALS/code/01basics/10functions.py
+hello
+olleh
+Good Morning
