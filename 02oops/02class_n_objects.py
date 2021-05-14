@@ -1,16 +1,27 @@
-class Person():
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-    def sayName(self):
-        print('my name is ',self.name)
-    def changeAge(self,age):
-        self.age = age
-sam = Person('sam',5)
-james = Person('james',15)
-print(type(Person))
-print(type(sam))
-sam.sayName()
-print(james.age)
-james.changeAge(20)
-print(james.age)
+# creating a class for books in an library
+
+class Book(object):
+    def __init__(self,bookName,author,price):
+        self.bookName = bookName
+        self.author = author
+        self.price = price
+    
+    def change_price(self,newPrice):
+        self.price = newPrice
+    
+    def get_details(self):
+        return f'{self.bookName} was written by {self.author} and it costs {self.price} Rs.'
+    
+
+book1 = Book('Origin of Species','Charles Drawin',60.0)
+book2 = Book('Rough Note','Sudharsan','priceless')
+
+print(book1.get_details())
+print(book2.get_details())
+
+book1.change_price(55.0)
+print(book1.get_details())
+
+
+
+        
