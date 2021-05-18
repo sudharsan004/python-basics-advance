@@ -14,6 +14,7 @@ class Person(object):
     def get_no_persons(obj):
         return len(obj.person_names)
 
+
     # static method like a normal fun inside a class
     @staticmethod
     def greet():
