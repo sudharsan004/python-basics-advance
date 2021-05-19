@@ -6,7 +6,8 @@ print(addTwo(4))
 
 # multiple paramaters
 
-sum = lambda x,y: x+y
+eqn = lambda x,y,z=3: (x+y)*z
 
+print(eqn(3,4))
 seperateVowle=lambda word : [x for x in word.lower() if x in ['a','e','i','o','u']]
 print(seperateVowle('apple'))

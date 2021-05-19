@@ -14,6 +14,7 @@ print(result)
 
 reverse_vegetable_list = list(map(strRev,vegetables))
 print(reverse_vegetable_list)
+
 # lambda is in next file :)
 filter_reverse_vegetables_having_e = list(filter((lambda str: True if ('e' in str.lower()) else False),reverse_vegetable_list))
 print(filter_reverse_vegetables_having_e)
