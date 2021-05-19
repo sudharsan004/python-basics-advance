@@ -1,5 +1,5 @@
 # python-basics-advance
-Making python foundation strong :)
+Making python foundation strong :) Learning how to communicate with computer eee:
 
 
 
