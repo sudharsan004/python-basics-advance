@@ -15,4 +15,13 @@ print('after changing carrot to beetroot', vegetables)
 
 coordinates =(5,0,2)
 color =(23,67,225)
+print(color[2])
 print(type(color))
+
+# dictionaries {key:value}
+
+mydict ={'india':'Delhi','TamilNadu':'Chennai'}
+print(mydict.values())
+print(mydict.keys())
+print(mydict.items())
+print(mydict['india'])
