@@ -1,5 +1,7 @@
 import sys
 
+# generators are like looping through long itrator but one at a time . saving much memory
+
 def gen(n):
     for i in range(n):
         yield i
