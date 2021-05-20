@@ -12,9 +12,17 @@ class Person(object):
             raise Exception(anotherPerson+'is not a object of class Person')
     
     def __call__(self):
-        return print(f'Hi, I am {self.name},did you call me?')
+        print(f'Hi, I am {self.name},did you call me?')
+
+    def __len__(self):
+        return self.height
+
+    def __repr__(self):
+        return f'Person: {self.name}'
 
 
-ram = Person('Ram','173cm')
+ram = Person('Ram',173)
 ram()
+print(len(ram))
+print(ram)
 
